@@ -4,6 +4,7 @@ using System.Text;
 
 Stopwatch stopwatch = new Stopwatch();
 
+Console.Write("Enter your password hash: ");
 string password = Console.ReadLine();
 
 stopwatch.Start();
